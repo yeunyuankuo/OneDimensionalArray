@@ -10,11 +10,11 @@
 ## Definition of Array
 Array is a datastructure consisting of a collection of elements, each identified by array index. An array is stored such that the position of each element can be computed from its index cell by a mathematical formula.
 
-* **One Dimensional Array** -> arr[col]
-* **Two Dimensional Array** -> arr[row][col]
-* **Three Dimensional Array** -> arr[depth][row][col]
+**One Dimensional Array** -> arr[col]
+**Two Dimensional Array** -> arr[row][col]
+**Three Dimensional Array** -> arr[depth][row][col]
 
-```**Java** supports upto 255 dimensional array:clap::clap::clap:```
+_**Java** supports upto **255** dimensional array:clap::clap::clap:_
 
 ## Time and Space Complexity of 1D Array
 Particulars | Time Complexity | Space Complexity
