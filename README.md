@@ -25,3 +25,11 @@ Traversing a given array | O(N) | O(1)
 Accessing given cell number | O(1) | O(1)
 Searching a given value | O(N) | O(1)
 Deleting a cell's value | O(1) | O(1)
+
+## When to Use / Avoid Array?
+### Use
+* When there is a need to store multiple similar type of data
+* When random access is regular affair because it only takes O(1)
+### Avoid
+* Data to be stored are non-homogenous
+* When number of data to be stored is not know in advance
