@@ -5,7 +5,7 @@ public class OneDimensionalArrayMain {
         // Create OneDimensionalArray
         OneDimensionalArray arr = new OneDimensionalArray(5);
 
-        // Insert value
+        // Insert Values to Array
         arr.insertValueToArray(0, 1);
         arr.insertValueToArray(1, 2);
         arr.insertValueToArray(2, 3);
@@ -16,13 +16,16 @@ public class OneDimensionalArrayMain {
 
         arr.printArray();
 
+        // Accessing Value in Cells
         arr.accessingCell(0);
         arr.accessingCell(4);
         arr.accessingCell(100);     // accessing cell that doesn't exist
 
+        // Find a particular value in the Array
         arr.searchingInArray(1);
         arr.searchingInArray(100);
 
+        // Delete or empty a certain cell
         arr.deleteValueFromArray(0);
 
         arr.printArray();
